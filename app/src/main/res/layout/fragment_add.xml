@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".Fragments.add">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="新貼文"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <ImageButton
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:id="@+id/backBtn"
+                android:background="@drawable/ic_arrow_back"
+                />
+            <ImageButton
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:id="@+id/nextBtn"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/baseline_arrow_forward_ios_24"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionET"
+        android:background="@color/white"
+        android:layout_below="@+id/toolbar"
+        android:hint="為添加的照片增加說明"
+        android:minLines="10"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_below="@+id/descriptionET"
+        android:layout_margin="6dp"
+        android:id="@+id/view"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageview"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@null"
+        android:layout_below="@id/view"
+        android:src="@drawable/ic_image_24"
+
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageview"
+        android:layout_centerHorizontal="true"
+        android:text="選取照片"/>
+
+</RelativeLayout>

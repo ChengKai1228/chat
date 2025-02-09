@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1095708826862",
+    "project_id": "gaiabit-42c97",
+    "storage_bucket": "gaiabit-42c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095708826862:android:74e62aa10f76110358e7ff",
+        "android_client_info": {
+          "package_name": "com.gaiabit.gaiabit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095708826862-ash9s4r9c7kfr4afsa1oqqnvojmcls85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gaiabit.gaiabit",
+            "certificate_hash": "34ca0092bf6e510dadce568b4264cd2e99bc0fd1"
+          }
+        },
+        {
+          "client_id": "1095708826862-no3fpetoochboiq42llbhb18sd830erd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZxPj7fXj15ax3Vs9c_-gKtmNJtVFPDqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095708826862-no3fpetoochboiq42llbhb18sd830erd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

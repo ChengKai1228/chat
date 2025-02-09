@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.LoginFragment">
+
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/text_box"
+        android:hint="電子郵件帳號"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/et_2"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/text_box"
+        android:hint="密碼"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:paddingLeft="10dp"
+        android:textColor="#858484"
+        android:textColorHint="#858484"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="#985945"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="登入"
+        android:textSize="17dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="end"
+        android:text="忘記密碼"
+        android:textColor="#985945"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:src="@drawable/ic_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:textStyle="bold"
+        android:textColor="#985945"
+        android:text="尚未有帳號，前往註冊"/>
+</RelativeLayout>
